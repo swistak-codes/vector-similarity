@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "scripts": {
     "start:generate": "node generate-embeddings.js",
-    "start:tests": "node generate-tests.js"
+    "start:tests": "node generate-tests.js",
+    "start:analogy-generate": "node generate-analogy-embeddings.js",
+    "start:analogy-tests": "node generate-analogy-tests.js"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "description": "",
   "dependencies": {
-    "dotenv": "^17.3.1"
+    "dotenv": "^17.3.1",
+    "wink-embeddings-sg-100d": "^1.1.0"
   },
   "type": "commonjs"
 }
