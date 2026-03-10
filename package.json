@@ -1,0 +1,16 @@
+{
+  "name": "vector-similarity",
+  "version": "1.0.0",
+  "scripts": {
+    "start:generate": "node generate-embeddings.js",
+    "start:tests": "node generate-tests.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  },
+  "type": "commonjs"
+}
